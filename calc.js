@@ -12,7 +12,29 @@ function calcular() {
         display.textContent = eval(display.textContent);
     } catch (error) {
         display.textContent = "Error";
+        
     }
+    if(display.textContent === "777"){
+        display.textContent = "😈Vegetita😈"
+    }else if(display.textContent === "28062008"){
+        display.textContent = "I ❤️ YOU"
+    }else if(display.textContent === "6969"){
+        display.textContent = "GUARRILLA"
+    }else if(display.textContent === "21"){
+        display.textContent = "Gorro judio"
+    }else if(display.textContent === "13"){
+        display.textContent = "Agarramela💀"
+    }else if(display.textContent === "23"){
+        display.textContent = "Jordan"
+    }else if(display.textContent === "420"){
+        display.textContent = "Porretaaaa"
+    }else if(display.textContent === "512"){
+        window.location.replace("https://open.spotify.com/intl-es/track/5jzEwSyyymBlf1fa1o39T2");
+    }else if(display.textContent === "20032024"){
+        window.location.replace("https://www.google.com/search?sxsrf=AHTn8zr1xSwDoKsxnoTAanb6Tf84AY7WNQ:1747942493193&q=kiko+matamoros");
+    }
+
+    
 }
 
 function borrarPantalla() {
