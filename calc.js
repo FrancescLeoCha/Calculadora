@@ -29,9 +29,9 @@ function calcular() {
     }else if(display.textContent === "420"){
         display.textContent = "Porretaaaa"
     }else if(display.textContent === "512"){
-        window.open("https://open.spotify.com/intl-es/track/5jzEwSyyymBlf1fa1o39T2", '_blank');
+        abrir("https://open.spotify.com/intl-es/track/5jzEwSyyymBlf1fa1o39T2");
     }else if(display.textContent === "20032024"){
-        window.open("https://www.google.com/search?sxsrf=AHTn8zr1xSwDoKsxnoTAanb6Tf84AY7WNQ:1747942493193&q=kiko+matamoros", '_blank');
+        abrir("https://www.google.com/search?sxsrf=AHTn8zr1xSwDoKsxnoTAanb6Tf84AY7WNQ:1747942493193&q=kiko+matamoros");
     }
 
     
@@ -40,3 +40,7 @@ function calcular() {
 function borrarPantalla() {
     display.textContent = "0";
 }
+
+function abrir(url){
+      window.open(url, '_blank');
+}    
